@@ -5,6 +5,7 @@ This repository holds the softoo's codding assignment i.e. REST API Implementati
 **Project Specification** :- 
 
 Java version  :- 21
+
 Spring boot version :- 3.3.0
 
 I have created three controllers. Separate controller for each API. and respected Javadocs are already added against all important controllers. 
