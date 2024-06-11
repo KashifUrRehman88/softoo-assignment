@@ -25,8 +25,12 @@ URL: http://localhost:8080/users
 
 Authorization:
 Go to the Authorization tab.
+
 Set the Type to Bearer Token.
+
 In the Token field, enter the token you obtained earlier (Pre-Req step above).
+
+
 Send the Request:
 
 Click Send.
@@ -44,8 +48,12 @@ URL: http://localhost:8080/posts
 Authorization:
 
 Go to the Authorization tab.
+
 Set the Type to Bearer Token.
+
 In the Token field, enter the token you obtained earlier ((Pre-Req step above)).
+
+
 Send the Request:
 
 Click Send.
@@ -63,8 +71,12 @@ URL: http://localhost:8080/comments
 Authorization:
 
 Go to the Authorization tab.
+
 Set the Type to Bearer Token.
+
 In the Token field, enter the token you obtained earlier (Pre-Req step above).
+
+
 Send the Request:
 
 Click Send.
@@ -82,8 +94,12 @@ Replace {userId} with the actual user ID.
 Authorization:
 
 Go to the Authorization tab.
+
 Set the Type to Bearer Token.
+
 In the Token field, enter the token you obtained earlier (Pre-Req step above).
+
+
 Send the Request:
 
 Click Send.
@@ -94,13 +110,19 @@ You should receive a list of posts by the specified user in the response.
 Set Up the Request:
 
 Method: GET
+
 URL: http://localhost:8080/comments/post/{postId}
+
 Replace {postId} with the actual post ID.
+
 Authorization:
 
 Go to the Authorization tab.
+
 Set the Type to Bearer Token.
+
 In the Token field, enter the token you obtained earlier (Pre-Req step above).
+
 Send the Request:
 
 Click Send.
