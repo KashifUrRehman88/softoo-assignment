@@ -12,7 +12,7 @@ I have created three controllers. Separate controller for each API. and respecte
 
 Making API Calls by postman :- 
 
-**Pre-Req step :- If you have an OAuth 2.0 token, you can make authenticated API calls to this Spring Boot application.**
+**Pre-Req step :- If you have an OAuth 2.0 token  (https://www.youtube.com/watch?v=v8j2lvjCAZc), you can make authenticated API calls to this Spring Boot application.**
 
 **1. Get All User**
 
