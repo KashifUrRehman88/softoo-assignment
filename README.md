@@ -105,3 +105,8 @@ Send the Request:
 
 Click Send.
 You should receive a list of comments for the specified post in the response.
+
+
+Here is the screenshot, that how i was able to run and test EndPoints :- 
+
+![Screenshot from 2024-06-11 19-59-35](https://github.com/KashifUrRehman88/softoo-assignment/assets/92730587/f464d5ed-3729-4d4a-9539-62f5d92c01db)
