@@ -5,7 +5,7 @@ I have created three controllers. Separate controller for each API. and respecte
 
 Making API Calls by postman :- 
 
-If you have an OAuth 2.0 token, you can make authenticated API calls to this Spring Boot application.
+**Pre-Req step :- If you have an OAuth 2.0 token, you can make authenticated API calls to this Spring Boot application.**
 
 **1. Get All User**
 
@@ -19,7 +19,7 @@ URL: http://localhost:8080/users
 Authorization:
 Go to the Authorization tab.
 Set the Type to Bearer Token.
-In the Token field, enter the token you obtained earlier.
+In the Token field, enter the token you obtained earlier (Pre-Req step above).
 Send the Request:
 
 Click Send.
@@ -38,7 +38,7 @@ Authorization:
 
 Go to the Authorization tab.
 Set the Type to Bearer Token.
-In the Token field, enter the token you obtained earlier.
+In the Token field, enter the token you obtained earlier ((Pre-Req step above)).
 Send the Request:
 
 Click Send.
@@ -57,7 +57,7 @@ Authorization:
 
 Go to the Authorization tab.
 Set the Type to Bearer Token.
-In the Token field, enter the token you obtained earlier.
+In the Token field, enter the token you obtained earlier (Pre-Req step above).
 Send the Request:
 
 Click Send.
@@ -76,7 +76,7 @@ Authorization:
 
 Go to the Authorization tab.
 Set the Type to Bearer Token.
-In the Token field, enter the token you obtained earlier.
+In the Token field, enter the token you obtained earlier (Pre-Req step above).
 Send the Request:
 
 Click Send.
@@ -93,7 +93,7 @@ Authorization:
 
 Go to the Authorization tab.
 Set the Type to Bearer Token.
-In the Token field, enter the token you obtained earlier.
+In the Token field, enter the token you obtained earlier (Pre-Req step above).
 Send the Request:
 
 Click Send.
