@@ -21,14 +21,20 @@ public class SecurityConfig {
 	
 	@Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
-            .authorizeRequests(authorizeRequests ->
-                authorizeRequests
-                    .requestMatchers("/users/**", "/posts/**", "/comments/**").authenticated()
-                    .anyRequest().permitAll()
-            )
-            .oauth2ResourceServer(oauth2 -> oauth2.jwt());
-        return http.build();
+		/*
+		 * http .authorizeRequests(authorizeRequests -> authorizeRequests
+		 * .requestMatchers("/users/**", "/posts/**", "/comments/**").authenticated()
+		 * .anyRequest().permitAll() ) .oauth2ResourceServer(oauth2 -> oauth2.jwt());
+		 * return http.build();
+		 */
+		 http
+         .authorizeHttpRequests(authorizeRequests ->
+             authorizeRequests
+                 .requestMatchers("/users/**", "/posts/**", "/comments/**").authenticated()
+                 .anyRequest().permitAll()
+         )
+         .oauth2ResourceServer(oauth2 -> oauth2.jwt());
+     return http.build();
     }
 
     @Bean
